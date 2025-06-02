@@ -107,7 +107,7 @@ ice_floe <- function(seed) {
   set.seed(seed)
   
   grid <- long_grid(
-    x = seq(0, 1, length.out = 2000),
+    x = seq(0, 1, length.out = 2000), 
     y = seq(0, 1, length.out = 2000)
   )
   
